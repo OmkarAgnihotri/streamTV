@@ -8,7 +8,7 @@ import StreamList from './streams/StreamList';
 
 const App = () => {
     return (
-        <div className="container">
+        <div className="container-fluid">
             <BrowserRouter>
                 <Header />
                 <Route path="/" exact component={StreamList}></Route>
